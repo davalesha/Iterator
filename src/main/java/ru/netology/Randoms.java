@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.Random;
 
 public class Randoms implements Iterable<Integer> {
-    private final static int FINISH = 100;
     private Random random;
     private int min;
     private int max;
